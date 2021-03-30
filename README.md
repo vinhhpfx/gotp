@@ -12,12 +12,12 @@ GOTP was inspired by [PyOTP][PyOTP].
 ## Installation
 
 ```
-$ go get github.com/xlzd/gotp
+$ go get github.com/vinhhpfx/gotp
 ```
 
 ## Usage
 
-Check API docs at https://godoc.org/github.com/xlzd/gotp
+Check API docs at https://godoc.org/github.com/vinhhpfx/gotp
 
 ### Time-based OTPs
 
@@ -88,7 +88,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/xlzd/gotp"
+	"github.com/vinhhpfx/gotp"
 )
 
 func main() {
@@ -101,9 +101,9 @@ func main() {
 GOTP is licensed under the [MIT License][License]
 
 
-[build-status]: https://travis-ci.org/xlzd/gotp.svg?branch=master
+[build-status]: https://travis-ci.org/vinhhpfx/gotp.svg?branch=master
 [license-badge]:   https://img.shields.io/badge/license-MIT-000000.svg
 [RFC 4226]: https://tools.ietf.org/html/rfc4226 "RFC 4226"
 [RFC 6238]: https://tools.ietf.org/html/rfc6238 "RFC 6238"
 [PyOTP]: https://github.com/pyotp/pyotp
-[License]: https://github.com/xlzd/gotp/blob/master/LICENSE
+[License]: https://github.com/vinhhpfx/gotp/blob/master/LICENSE
